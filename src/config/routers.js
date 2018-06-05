@@ -1,7 +1,7 @@
 const router = require('../routes')
 
 function addRoutersToApp(app) {
-  app.use('/', router)
+  app.use('/profiles', router)
   return app
 }
 
